@@ -8,16 +8,15 @@
 
 import Foundation
 
-struct SearchResult {
+struct SearchResult: Codable {
     var title: String
     var creator: String
 }
 
-struct SearchResults {
+struct SearchResults: Codable {
     let results: [SearchResult]
 }
 
 enum CodingKeys: String, CodingKey {
     case title = "trackName"
-    
 }

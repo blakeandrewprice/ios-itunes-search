@@ -15,6 +15,7 @@
 		91DF90A02370AD3D001B622D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DF909E2370AD3D001B622D /* LaunchScreen.storyboard */; };
 		91DF90A92370B0CC001B622D /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF90A82370B0CC001B622D /* SearchResult.swift */; };
 		91DF90AB2370B3E8001B622D /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF90AA2370B3E8001B622D /* ResultType.swift */; };
+		91DF90AE2370B59A001B622D /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DF90AD2370B59A001B622D /* SearchResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		91DF90A12370AD3D001B622D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91DF90A82370B0CC001B622D /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		91DF90AA2370B3E8001B622D /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		91DF90AD2370B59A001B622D /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				91DF90972370AD3A001B622D /* ViewController.swift */,
 				91DF90A82370B0CC001B622D /* SearchResult.swift */,
 				91DF90AA2370B3E8001B622D /* ResultType.swift */,
+				91DF90AD2370B59A001B622D /* SearchResultController.swift */,
 				91DF90A12370AD3D001B622D /* Info.plist */,
 				91DF90AC2370B3F3001B622D /* Storyboard */,
 			);
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DF90AE2370B59A001B622D /* SearchResultController.swift in Sources */,
 				91DF90AB2370B3E8001B622D /* ResultType.swift in Sources */,
 				91DF90982370AD3A001B622D /* ViewController.swift in Sources */,
 				91DF90942370AD3A001B622D /* AppDelegate.swift in Sources */,
